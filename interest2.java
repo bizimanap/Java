@@ -1,6 +1,6 @@
  class interest2 {//a class called interest2.
     public double cal(int p,int t,int r, int n){// created methood.
-        return(p*((1+((r/100)/n))^(n*t)));// the formula that will be used  to calculate.
+        returnp*(Math.pow((1+r/n),(n*t)));// the formula that will be used  to calculate.
 
     }
     
